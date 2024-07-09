@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.header a {
+    text-decoration: none;
+    font-size: 15px;
+    margin-right: 20px;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.header a:hover {
+    text-decoration: underline;
+}
+
+.header_right {
+    display: flex;
+    align-items: center;
+    min-width: 13vw;
+    justify-content: space-between;
+}
+
+.header_right .header_apps {
+    margin-right: 10px;
+}
+
+.mainBody img {
+    width: 272px;
+    height: 90px;
+    margin: 0 auto;
+    margin-top: 250px;
+    display: block;
+    object-fit: contain;
+}
+
+.mainBody {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.search_input {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    padding: 10px 20px;
+    border: 1px solid lightgray;
+    height: 30px;
+    border-radius: 999px;
+    width: 75vw;
+    margin: 0 auto;
+    margin-top: 40px;
+    max-width: 560px;
+}
+
+.search_input input {
+    flex: 1;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+}
+
+.search_input .material-icons {
+    color: gray;
+}
+
+.search_buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.search_buttons button{
+   margin: 5px;
+   background-color: #f8f8f8;
+   padding: 10px 15px;
+   outline: none;
+   border: none;
+   cursor: pointer;
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer_country {
+    background-color: #f8f8f8;
+    font-size: 15px;
+    padding: 15px 30px;
+    border-bottom: 0.5px solid lightgray;
+}
+
+.footer_links {
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.footer_links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer_links li {
+    padding: 15px;
+}
+.footer_links li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer_links_left {
+    display: flex;
+    align-items: center;
+}
+
+.footer_links_right {
+    display: flex;
+    align-items: center;
+}
+
+
