@@ -42,7 +42,7 @@ body {
     width: 272px;
     height: 90px;
     margin: 0 auto;
-    margin-top: 250px;
+    margin-top: 220px;
     display: block;
     object-fit: contain;
 }
@@ -78,10 +78,14 @@ body {
     color: gray;
 }
 
+.search_input .material-icons:hover {
+    cursor: pointer;
+}
+
 .search_buttons {
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .search_buttons button{
@@ -91,6 +95,7 @@ body {
    outline: none;
    border: none;
    cursor: pointer;
+   border-radius: 4px;
 }
 
 .footer {
